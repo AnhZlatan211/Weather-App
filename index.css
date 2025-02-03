@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('imgs/weather1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.877);
+    padding: 30px;
+    border-radius: 15px;
+    background-image: url('imgs/Red\ moon\ skyline.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 25px 35px 0px black;
+}
+#card input {
+    font-size: 16px;
+    padding: 10px 25px 10px 10px;
+    border-radius: 15px 0 15px 0;
+    border: none;
+    transition: 0.2s;
+    background-color: rgba(253, 253, 253, 0.9);
+    box-shadow: 0px 4px 10px rgb(0, 0, 0);
+}
+#card input:focus {
+    border-radius:0 15px 0 15px ;
+}
+#card button {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    margin-left: 3px;
+    border: none;
+    border-radius: 100px 0 100px 100px;
+    background-color: rgba(253, 253, 253, 0.9);
+    color: rgb(0, 0, 0);
+}
+#card button:hover {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+}
+#city {
+    font-size: 40px;
+    margin: 30px 0px 10px 0;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    max-width: 275px;
+}
+#degree {
+    padding: 20px 50px;
+    background-color: rgba(255, 255, 255, 0.118);
+    border-radius: 10px;
+    font-size: 70px;
+    font-weight: bold;
+    margin: 25px 0px;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0);
+    text-shadow: 5px 10px 5px rgb(0, 0, 0);
+}
+#weather {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+.others {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap:25%;
+}
+.other {
+    font-size: 17px;
+}
+.other p {
+    margin-top: 10px;
+}
